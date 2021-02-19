@@ -1,0 +1,40 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int a;
+	setlocale(LC_ALL ,"Russian");
+		cout << "Введите число a\n";
+	    cin >> a ;
+
+	if (a == 1)
+	cout << "Январь\n";
+	if(a==2)
+	cout << "Февраль\n";
+	if(a==3)
+	cout<< "Март\n";
+	if (a==4)
+	cout << "Апрель\n";
+	if (a==5)
+	cout << "Май\n";
+	if (a==6)
+	cout << "Июнь\n";
+	if (a==7)
+	cout << "Июль\n";
+	if (a==8)
+	cout << "Август\n";
+	if (a==9)
+	cout << "Сентябрь\n";
+	if (a==10)
+	cout << "Октябрь\n";
+	if (a==11)
+	cout << "Ноябрь\n";
+	if (a==12)
+        cout << "Декабрь\n";
+        if (a>12)
+	cout << "Нет такого месяца\n";
+
+	return 0;
+	system("pause");
+}
