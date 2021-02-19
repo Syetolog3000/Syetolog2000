@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+     int a, b, c;
+     setlocale(LC_ALL ,"Russian");
+     cout << "Введите числа a,b и c\n";
+     cin >> a >> b >> c;
+	if (a == b)
+	if (b == c)
+	cout << "a,b и c равны\n";
+	else
+	cout << "b и c не равны\n";
+return 0;
+system("pause");
+}
