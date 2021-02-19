@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int x,y;
+	setlocale(LC_ALL ,"Russian");
+	cout << "Введите число x и y\n";
+	cin >> x >> y;
+	if ((x > 0)&& (y > 0))
+	cout << "Первая четверть\n";
+	if ((x < 0)&& (y > 0))
+	cout << "Вторая четверть\n";
+	if((x < 0)&& (y < 0))
+	cout<< "Третья четверть\n";
+	if ((x > 0)&&(y < 0))
+	cout << "Четвертая четверть\n";
+			
+	return 0;
+	system("pause");
+}
